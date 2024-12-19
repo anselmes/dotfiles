@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+source ${HOME}/scripts/aliases.sh
+source ${HOME}/scripts/environment.sh
+source /etc/profile
+

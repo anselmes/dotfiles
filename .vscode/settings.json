@@ -26,7 +26,10 @@
   "git.enableSmartCommit": true,
   "git.timeline.showUncommitted": true,
   "git.alwaysSignOff": true,
-  "git.branchProtection": ["main", "master"],
+  "git.branchProtection": [
+    "main",
+    "master"
+  ],
   "git.autoStash": true,
   "git.pruneOnFetch": true,
   "git.rebaseWhenSync": true,
@@ -53,5 +56,10 @@
   // },
   "yaml.schemas": {
     "https://json.schemastore.org/yamllint.json": "*.yaml"
+  },
+  "C_Cpp.default.compilerPath": "/home/ubuntu/pkg/kernel/linux/lkm/legacy/hello/hello.c",
+  "files.associations": {
+    "module.h": "c",
+    "fs.h": "c"
   }
 }
